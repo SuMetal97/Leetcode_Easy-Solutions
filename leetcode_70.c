@@ -1,6 +1,6 @@
 int climbStairs(int n){
     int *ans; 
-    ans= malloc(50*sizeof(int *));
+    ans= malloc(45*sizeof(int *));
     ans[0] = 0;
     ans[1] = 1;
     ans[2] = 2;
