@@ -12,7 +12,7 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
 
 void traversal(struct TreeNode* root){
     if(root ==NULL){
-        return res;
+        return;
     }
     if(root->left != NULL){
         traversal(root->left);
