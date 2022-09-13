@@ -24,3 +24,9 @@ int singleNumber(int* nums, int numsSize){
     }
     return nums[numsSize-1];
 }
+
+int singleNumber_optimal(int* nums, int numsSize){
+    int result = 0;
+    while(numsSize--) result ^= nums[numsSize];
+    return result;
+}
